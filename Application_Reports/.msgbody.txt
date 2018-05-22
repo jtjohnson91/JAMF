@@ -1,0 +1,1 @@
+Application Reports to include: Mozilla Firefox Addons, Chrome Browser Extensions, Macbook Applicaitons, and Brew Package Installations.

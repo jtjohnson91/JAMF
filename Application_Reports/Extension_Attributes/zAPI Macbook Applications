@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "<result>" && ls /Applications/ | awk -F "." '{print $1}' && echo "</result>"
