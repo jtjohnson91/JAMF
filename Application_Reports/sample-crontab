@@ -1,5 +1,0 @@
-SHELL=/bin/sh
-# Order of crontab fields
-# minute        hour    mday    month   wday    command
-# weekly application reports executed at 0700 every monday
-0 7 * * 1       /home/<username>/Application_Reports/Generate_Reports.sh

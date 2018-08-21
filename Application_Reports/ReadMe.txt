@@ -1,7 +1,3 @@
-1) Install extension attributes into JAMF. If you have already installed my other extension attributes you do not need to add the brew one again.
-
-2) Edit each variable in the .run_reports.sh and .JAMF_API.sh scripts as well as completing file path for chosen directory in all .sh and .py files.
-
-3) For the automated email to send with mutt you will need to edit your ~/.muttrc file appropriately. If you wish to not have an automated email sent just comment out (#) the last line in .run_reports.sh
-
-4) Run sh Generate_Reports.sh to execute the creation of your reports.
+1) Install Extension Attributes (Brew Ext Attr is not needed if you have installed my other Extension Attributes)
+2) Fill in <> areas in python script
+3) First run will create a base line file so expect alot of results but sequential runs will only show new installs
